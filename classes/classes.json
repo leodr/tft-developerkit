@@ -1,0 +1,121 @@
+[{
+    "id": "assassin",
+    "name": "Assassin",
+    "text": "Assassins leap to the farthest enemy at the start of combat and deal additional Critical Strike Damage.",
+    "ranks": [{
+            "units": 3,
+            "text": "+150% critical strike damage"
+        },
+        {
+            "units": 6,
+            "text": "+350% critical strike damage"
+        }
+    ]
+}, {
+    "id": "blademaster",
+    "name": "Blademaster",
+    "text": "Blademasters have a 35% chance to strike additional times each attack.",
+    "ranks": [{
+            "units": 3,
+            "text": "One additional strike"
+        },
+        {
+            "units": 6,
+            "text": "Two additional strikes"
+        }
+    ]
+}, {
+    "id": "brawler",
+    "name": "Brawler",
+    "text": "Brawlers receive bonus maximum health.",
+    "ranks": [{
+            "units": 2,
+            "text": "300 Bonus Health"
+        },
+        {
+            "units": 4,
+            "text": "700 Bonus Health"
+        }
+    ]
+}, {
+    "id": "elementalist",
+    "name": "Elementalist",
+    "text": "Elementalists gain double mana from attacks.",
+    "ranks": [{
+        "units": 3,
+        "text": "At the start of combat, summon a golem."
+    }]
+},{
+    "id": "guardian",
+    "name": "Guardian",
+    "ranks": [{
+            "units": 2,
+            "text": "At the start of combat, all Guardians and adjacent allies receive +30 armor."
+        }
+    ]
+},{
+    "id": "gunslinger",
+    "name": "Gunslinger",
+    "text": "After attacking, Gunslingers have a 50% chance to fire additional attacks.",
+    "ranks": [{
+            "units": 2,
+            "text": "Attack another random enemy"
+        },
+        {
+            "units": 4,
+            "text": "Attack all other enemies in range"
+        }
+    ]
+},{
+    "id": "knight",
+    "name": "Knight",
+    "text": "Knights block damage from basic attacks.",
+    "ranks": [{
+            "units": 2,
+            "text": "20 Damage blocked"
+        },
+        {
+            "units": 4,
+            "text": "40 Damage blocked"
+        },
+        {
+            "units": 6,
+            "text": "80 Damage blocked"
+        }
+    ]
+},{
+    "id": "ranger",
+    "name": "Ranger",
+    "text": "Rangers have a chance to double their attack speed for the next 3s.",
+    "ranks": [{
+            "units": 2,
+            "text": "25% Chance to double Attack Speed"
+        },
+        {
+            "units": 4,
+            "text": "65% Chance to double Attack Speed"
+        }
+    ]
+},{
+    "id": "shapeshifter",
+    "name": "Shapeshifter",
+    "text": "Shapeshifters gain bonus maximum Health when they transform",
+    "ranks": [{
+            "units": 3,
+            "text": "+100% Bonus Maximum Health"
+        }
+    ]
+},{
+    "id": "sorcerer",
+    "name": "Sorcerer",
+    "text": "Sorcerers gain double mana from attacking and alliess have increased spell damage.",
+    "ranks": [{
+            "units": 3,
+            "text": "+35% spell damage"
+        },
+        {
+            "units": 6,
+            "text": "+100% spell damage"
+        }
+    ]
+}]

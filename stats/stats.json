@@ -1,0 +1,26 @@
+[{
+    "id": "ad",
+    "name": "Attack Damage"
+}{
+    "id": "armor",
+    "name": "Armor"
+},{
+    "id": "hp",
+    "name": "Health"
+},{
+    "id": "sd",
+    "name": "Spell Damage",
+    "suffix": "%",
+    "factor": 100
+},{
+    "id": "mr",
+    "name": "Magic Resistance"
+},{
+    "id": "as",
+    "name": "Attack Speed",
+    "suffix": "%",
+    "factor": 100
+}{
+    "id": "mana",
+    "name": "Mana"
+}]

@@ -1,0 +1,126 @@
+[{
+    "id": "demon",
+    "name": "Demon",
+    "text": "Attacks from Demons have a chance to burn all of the enemy's mana and deal that much true damage.",
+    "ranks": [{
+        "units": 2,
+        "text": "30% Chance to Mana Burn"
+    }, {
+        "units": 4,
+        "text": "50% Chance to Mana Burn"
+    }, {
+        "units": 6,
+        "text": "70% Chance to Mana Burn"
+    }]
+}, {
+    "id": "dragon",
+    "name": "Dragon",
+    "ranks": [{
+        "units": 2,
+        "text": "Dragons become immune to magic damage."
+    }]
+}, {
+    "id": "exile",
+    "name": "Exile",
+    "ranks": [{
+        "units": 1,
+        "text": "If an Exile has no adjacent allies at the start of combat, they gain a shield equal to 100% of their maximum health."
+    }]
+},{
+    "id": "glacial",
+    "name": "Glacial",
+    "text": "Attacks from Glacials have a chance to stun for 2s.",
+    "ranks": [{
+        "units": 2,
+        "text": "25% Chance to stun"
+    },{
+        "units": 4,
+        "text": "35% Chance to stun"
+    },{
+        "units": 6,
+        "text": "45% Chance to stun"
+    }]
+},{
+    "id": "robot",
+    "name": "Robot",
+    "ranks": [{
+        "units": 1,
+        "text": "Robots start combat at full mana."
+    }]
+},{
+    "id": "imperial",
+    "name": "Imperial",
+    "text": "Imperials deal double damage.",
+    "ranks": [{
+        "units": 2,
+        "text": "One random Imperial"
+    },{
+        "units": 4,
+        "text": "All Imperials"
+    }]
+},{
+    "id": "noble",
+    "name": "Noble",
+    "text": "+100 Armor and heal 35 health per attack.",
+    "ranks": [{
+        "units": 3,
+        "text": "1 random ally"
+    },{
+        "units": 6,
+        "text": "All allies"
+    }]
+},{
+    "id": "ninja",
+    "name": "Ninja",
+    "text": "The Ninja trait is only active when you have exactly 1 or 4 Ninjas.",
+    "ranks": [{
+        "units": 1,
+        "text": "Ninja gains +40% Attack damage."
+    },{
+        "units": 4,
+        "text": "All Ninjas gain +80% Attack damage."
+    }]
+},{
+    "id": "pirate",
+    "name": "Pirate",
+    "ranks": [{
+        "units": 3,
+        "text": "Earn up to 4 additional gold after combat against another player"
+    }]
+},{
+    "id": "phantom",
+    "name": "Phantom",
+    "ranks": [{
+        "units": 2,
+        "text": "Curse a random enemy at the start of combat, settings their HP to 100"
+    }]
+},{
+    "id": "wild",
+    "name": "Wild",
+    "text": "Attacks generate stacks of Fury (stacks up to 5 times). Each stack of Fury gives 8% Attack Speed.",
+    "ranks": [{
+        "units": 2,
+        "text": "Wild Allies only"
+    },{
+        "units": 4,
+        "text": "All Allies"
+    }]
+},{
+    "id": "void",
+    "name": "Void",
+    "ranks": [{
+        "units": 3,
+        "text": "All basic attacks ignore 50% of the enemy's armor"
+    }]
+},{
+    "id": "yordle",
+    "name": "Yordle",
+    "text": "Attacks against ally Yordles have a chance to miss.",
+    "ranks": [{
+        "units": 3,
+        "text": "20% Chance to miss"
+    },{
+        "units": 6,
+        "text": "50% Chance to miss"
+    }]
+}]

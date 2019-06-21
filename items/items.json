@@ -1,0 +1,275 @@
+[{
+    "id": "bf_sword",
+    "name": "B.F. Sword",
+    "base": true,
+    "stats": [{
+        "stat": "ad",
+        "value": 20
+    }]
+}, {
+    "id": "chain_vest",
+    "name": "Chain Vest",
+    "base": true,
+    "stats": [{
+        "stat": "armor",
+        "value": 20
+    }]
+}, {
+    "id": "giants_belt",
+    "name": "Giant's belt",
+    "base": true,
+    "stats": [{
+        "stat": "hp",
+        "value": 200
+    }]
+}, {
+    "id": "needlessly",
+    "name": "Needlessly Large Rod",
+    "base": true,
+    "stats": [{
+        "stat": "sd",
+        "value": 0.2
+    }]
+}, {
+    "id": "negatron_cloak",
+    "name": "Negatron Cloak",
+    "base": true,
+    "stats": [{
+        "stat": "mr",
+        "value": 20
+    }]
+}, {
+    "id": "recurve_bow",
+    "name": "Recurve Bow",
+    "base": true,
+    "stats": [{
+        "stat": "as",
+        "value": 0.2
+    }]
+}, {
+    "id": "golden_spatula",
+    "name": "Golden Spatula",
+    "base": true,
+    "stats": [{
+        "stat": "text",
+        "value": "It must do something..."
+    }]
+}, {
+    "id": "tear",
+    "name": "Tear of the Goddess",
+    "base": true,
+    "stats": [{
+        "stat": "mana",
+        "value": 20
+    }]
+}, {
+    "id": "bloodthirster",
+    "name": "Bloodthirster",
+    "base": false,
+    "ingredients": ["bf_sword", "negatron_cloak"],
+    "text": "Attacks heal for 35% of the damage."
+}, {
+    "id": "botrk",
+    "name": "Blade of the Ruined King",
+    "base": false,
+    "ingredients": ["golden_spatula", "recurve_bow"],
+    "provider": "blademaster"
+}, {
+    "id": "cursed_blade",
+    "name": "Cursed Blade",
+    "base": false,
+    "ingredients": ["recurve_bow", "negatron_cloak"],
+    "text": "Attacks have a low chance to Shrink (Reduce enemy's star level by 1)."
+}, {
+    "id": "darkin",
+    "name": "Darkin",
+    "base": false,
+    "ingredients": ["golden_spatula", "tear"],
+    "provider": "demon"
+}, {
+    "id": "dragons_claw",
+    "name": "Dragon's Claw",
+    "base": false,
+    "ingredients": ["negatron_cloak", "negatron_cloak"],
+    "text": "Gain 83% resistance to magic damage."
+}, {
+    "id": "force_of_nature",
+    "name": "Force of Nature",
+    "base": false,
+    "ingredients": ["golden_spatula", "golden_spatula"],
+    "text": "Gain +1 team size."
+}, {
+    "id": "frozen_heart",
+    "name": "Frozen Heart",
+    "base": false,
+    "ingredients": ["chain_vest", "tear"],
+    "text": "Adjacent enemies lose 20% Attack Speed."
+}, {
+    "id": "frozen_mallet",
+    "name": "Frozen Mallet",
+    "base": false,
+    "ingredients": ["giants_belt", "golden_spatula"],
+    "provider": "glacial"
+}, {
+    "id": "guardian_angel",
+    "name": "Guardian Angel",
+    "base": false,
+    "ingredients": ["bf_sword", "chain_vest"],
+    "text": "Wearer revives with 300 Health."
+}, {
+    "id": "rageblade",
+    "name": "Guinsoo's Rageblade",
+    "base": false,
+    "ingredients": ["needlessly", "recurve_bow"],
+    "text": "Attacks grant 5% Attack Speed. Stacks infinitely."
+}, {
+    "id": "gunblade",
+    "name": "Hextech Gunblade",
+    "base": false,
+    "ingredients": ["bf_sword", "needlessly"],
+    "text": "Heal for 25% of all damage dealt."
+}, {
+    "id": "hush",
+    "name": "Hush",
+    "base": false,
+    "ingredients": ["negatron_cloak", "tear"],
+    "text": "Attacks have a high chance to Silence."
+}, {
+    "id": "infinity_edge",
+    "name": "Infinity Edge",
+    "base": false,
+    "ingredients": ["bf_sword", "bf_sword"],
+    "text": "Critical Strikes deal +100% damage."
+}, {
+    "id": "ionic_spark",
+    "name": "Ionic Spark",
+    "base": false,
+    "ingredients": ["needlessly", "negatron_cloak"],
+    "text": "Whenever an enemy casts a spell, they take 100 damage."
+}, {
+    "id": "knights_vow",
+    "name": "Knight's Vow",
+    "base": false,
+    "ingredients": ["golden_spatula", "chain_vest"],
+    "provider": "knight"
+}, {
+    "id": "locket",
+    "name": "Locket of the Iron Solari",
+    "base": false,
+    "ingredients": ["chain_vest", "needlessly"],
+    "text": "On start of combat, all adjacent allies gain a shield of 200."
+}, {
+    "id": "ludens_echo",
+    "name": "Luden's Echo",
+    "base": false,
+    "ingredients": ["tear", "needlessly"],
+    "text": "Spells deal 100 splash damage on hit."
+}, {
+    "id": "morellonomicon",
+    "name": "Morellonomicon",
+    "base": false,
+    "ingredients": ["giants_belt", "needlessly"],
+    "text": "Spells deal burn damage equal to 5% of the enemy's maximum health per second."
+}, {
+    "id": "phantom_dancer",
+    "name": "Phantom Dancer",
+    "base": false,
+    "ingredients": ["chain_vest", "recurve_bow"],
+    "text": "Wearer dodges all Critical Strikes."
+}, {
+    "id": "rabadons",
+    "name": "Rabadon's Deathcap",
+    "base": false,
+    "ingredients": ["needlessly", "needlessly"],
+    "text": "+50% Ability Power."
+}, {
+    "id": "firecannon",
+    "name": "Rapid Firecannon",
+    "base": false,
+    "ingredients": ["recurve_bow", "recurve_bow"],
+    "text": "Wearer's attacks cannot be dodged. Attack Range is doubled."
+}, {
+    "id": "red_buff",
+    "name": "Red Buff",
+    "base": false,
+    "ingredients": ["chain_vest", "giants_belt"],
+    "text": "Attacks deal 2.5% burn damage."
+}, {
+    "id": "redemption",
+    "name": "Redemption",
+    "base": false,
+    "ingredients": ["giants_belt", "tear"],
+    "text": "On death, heal all nearby allies for 1000 Health."
+}, {
+    "id": "seraphs",
+    "name": "Seraph's Embrace",
+    "base": false,
+    "ingredients": ["tear", "tear"],
+    "text": "Regain 20% mana each time a spell is cast."
+}, {
+    "id": "shojin",
+    "name": "Spear of Shojin",
+    "base": false,
+    "ingredients": ["bf_sword", "tear"],
+    "text": "After casting, wearer gains 20% of its maximum mana per attack."
+}, {
+    "id": "statikk_shiv",
+    "name": "Statikk Shiv",
+    "base": false,
+    "ingredients": ["recurve_bow", "tear"],
+    "text": "Every 3rd attack deals 100 splash magic damage."
+}, {
+    "id": "sword_breaker",
+    "name": "Sword Breaker",
+    "base": false,
+    "ingredients": ["chain_vest", "negatron_cloak"],
+    "text": "Attacks have a chance to disarm."
+}, {
+    "id": "divine",
+    "name": "Sword of the Divine",
+    "base": false,
+    "ingredients": ["bf_sword", "recurve_bow"],
+    "text": "Each second, the wearer has a 5% chance to gain 100% Critical Strike."
+}, {
+    "id": "thornmail",
+    "name": "Thornmail",
+    "base": false,
+    "ingredients": ["chain_vest", "chain_vest"],
+    "text": "Reflect 25% of the damage taken from attacks."
+}, {
+    "id": "titanic_hydra",
+    "name": "Titanic Hydra",
+    "base": false,
+    "ingredients": ["recurve_bow", "giants_belt"],
+    "text": "Attacks deal 10% of the wearer's max Health as splash damage."
+}, {
+    "id": "warmogs",
+    "name": "Warmog's Armor",
+    "base": false,
+    "ingredients": ["giants_belt", "giants_belt"],
+    "text": "Wearer regenerates 2.5% max Health per second."
+}, {
+    "id": "ghostblade",
+    "name": "Youmuu's Ghostblade",
+    "base": false,
+    "ingredients": ["golden_spatula", "bf_sword"],
+    "provider": "assassin"
+}, {
+    "id": "yuumi",
+    "name": "Yuumi",
+    "base": false,
+    "ingredients": ["golden_spatula", "needlessly"],
+    "provider": "sorcerer"
+}, {
+    "id": "zekes_herald",
+    "name": "Zeke's Herald",
+    "base": false,
+    "ingredients": ["bf_sword", "giants_belt"],
+    "text": "Adjacent allies gain +20% Attack Speed."
+}, {
+    "id": "zephyr",
+    "name": "Zephyr",
+    "base": false,
+    "ingredients": ["giants_belt", "negatron_cloak"],
+    "text": "On start of combat, banish an enemy for 5 seconds."
+}]
