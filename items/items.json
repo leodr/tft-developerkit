@@ -44,7 +44,7 @@
     "base": true,
     "stats": [{
         "stat": "as",
-        "value": 0.2
+        "value": 0.15
     }]
 }, {
     "id": "golden_spatula",
@@ -121,7 +121,7 @@
     "name": "Guinsoo's Rageblade",
     "base": false,
     "ingredients": ["needlessly", "recurve_bow"],
-    "text": "Attacks grant 5% Attack Speed. Stacks infinitely."
+    "text": "Attacks grant 3% Attack Speed. Stacks infinitely."
 }, {
     "id": "gunblade",
     "name": "Hextech Gunblade",

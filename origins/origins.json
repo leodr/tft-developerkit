@@ -32,10 +32,10 @@
     "text": "Attacks from Glacials have a chance to stun for 2s.",
     "ranks": [{
         "units": 2,
-        "text": "25% Chance to stun"
+        "text": "20% Chance to stun"
     },{
         "units": 4,
-        "text": "35% Chance to stun"
+        "text": "30% Chance to stun"
     },{
         "units": 6,
         "text": "45% Chance to stun"

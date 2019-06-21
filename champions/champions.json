@@ -51,7 +51,7 @@
     "class": ["assassin"],
     "stats": {
         "cost": 4,
-        "health": [600, 1080, 2160],
+        "health": [700, 1260, 2520],
         "armor": 20,
         "mr": 20,
         "ad": 70,
@@ -64,7 +64,7 @@
         "text": "Akali throws shurikens in front of her, dealing damage.",
         "stats": [{
             "name": "Damage",
-            "ranks": [150, 250, 350]
+            "ranks": [150, 325, 500]
         }]
     }
 }, {
@@ -251,7 +251,7 @@
         "text": "Cho'Gath ruptures an area, stunning and damaging enemies inside of it.",
         "stats": [{
             "name": "Damage",
-            "ranks": [200, 325, 450]
+            "ranks": [200, 400, 600]
         }, {
             "name": "Knock Duration",
             "ranks": [2, 2.5, 3]
@@ -1128,7 +1128,7 @@
         "text": "Sejuani creates a large glacial storm, stunning enemies within it after a short delay.",
         "stats": [{
             "name": "Damage",
-            "ranks": [150, 250, 350]
+            "ranks": [100, 175, 250]
         }, {
             "name": "Stun Duration",
             "ranks": [3, 4, 5]
